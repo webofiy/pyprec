@@ -1,0 +1,10 @@
+file =open("dev.txt","a")
+
+file.close()
+file =open("dev.txt","a+")
+data =input ("enter your info here ")
+file.write(data)
+file.close()
+file =open("dev.txt","r")
+print(file.read())
+file.close()
